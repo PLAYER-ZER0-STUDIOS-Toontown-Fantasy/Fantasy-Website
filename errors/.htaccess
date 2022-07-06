@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.asp [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.asp -f
+RewriteRule ^ %{REQUEST_URI}.asp [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+
+ErrorDocument 400 https://www.theplayerzero.com/errors/Whoopsies.html
+ErrorDocument 401 https://www.theplayerzero.com/errors/Whoopsies.html
+ErrorDocument 403 https://www.theplayerzero.com/errors/Whoopsies.html
+ErrorDocument 404 https://www.theplayerzero.com/errors/Whoopsies.html
+ErrorDocument 429 https://www.theplayerzero.com/errors/Whoopsies.html
+ErrorDocument 500 https://www.theplayerzero.com/errors/Whoopsies.html
