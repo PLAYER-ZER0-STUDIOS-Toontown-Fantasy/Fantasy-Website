@@ -86,8 +86,18 @@
     .nav-toggle-label span::after {
       top: 7px;
     }
+      
+    .navi-main-item {
+      position: absolute;
+      visibility: hidden;
+      width: 100%;
+      z-index: -1;
+      background: var(--background);
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+    }
     
     .nav {
+      border-bottom: 2px solid white;
       text-transform: uppercase;
       font-size: 1.2rem;
       background: var(--trans);
@@ -119,33 +129,23 @@
       }
       
       .nav-main-item a:hover {
+        width: 100%;
         background-color: gray;
-        opacity: 1;
-        visibility:visible;
+      }
+
+      .play {
+        background-color: red;
+        float: right;
       }
       
       .nav-main-item:hover > * {
-        opacity: 1;
+        visibility: visible;
         margin: 0;
         }
-      
-      .navi-main-item {
-        opacity: 0;
-        position: absolute;
-        width: 100%;
-        top: 100%;
-        z-index: -1;
-        background: var(--background);
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
-      }
 
   /* ==========
         Body
      ========== */
-     
-     p {
-      margin-top: 3rem;
-     }
 
      .links {
       color: white;
@@ -155,10 +155,21 @@
       color: #aaffaa;
      }
   
-     .content {
-      background-size: cover;
+     .header {
       text-align: center;
       font-size: 30px;
       place-items: center;
       z-index: 1;
+      padding: 0;
+      margin: 0;
+    }
+
+    .construction-img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .fantasy-paragraph {
+      padding: 15px 0;
+      font-size: 30px;
     }
