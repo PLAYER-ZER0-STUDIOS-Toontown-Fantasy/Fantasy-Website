@@ -1,0 +1,42 @@
+/* Global Stylesheet */
+/* browser reset */
+body,div,ul,ol,li,p,table,td,tr,th,dl,dd,dt,form,input,textarea,button,select,option,h1,h2,h3,h4,h5,h6,h7{margin:0;padding:0;}
+img{border:none;}
+.clear{overflow:hidden;zoom:1;}
+.hidden{display:none;}
+body{font-size:12px;color:#666666;font-family:Arial,Helvetica,sans-serif;background:transparent;}
+a,a:visited{color:#2078fd;text-decoration:none;}
+a:hover{text-decoration:none;}
+
+/* Global ID selectors */
+#preload {display: none;}
+
+/* Archive Navigation*/
+#archiveContainer{position:absolute;top:22px;left:624px;width:125px;height:35px;}
+#previousIssue{position:absolute;width:11px;height:23px;top:6px;left:3px;}
+#nextIssue{position:absolute;width:11px;height:23px;top:6px;left:108px;}
+#thisWeekLabel{border:0px solid red;position:absolute;width:70px;height:16px;top:10px;left:25px;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -184px -291px;}
+#lastWeekLabel{border:0px solid red;position:absolute;width:74px;height:16px;top:10px;left:25px;background: #FFFFFF url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -97px -291px;}
+#twoWeeksAgoLabel{border:0px solid red;position:absolute;width:72px;height:16px;top:10px;left:25px;background: #FFFFFF url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -9px -291px;}
+
+/* Page Navigation */
+#previousPage{position:absolute;width:22px;height:16px;top:423px;left:33px;border:0px solid red;}
+#nextPage{position:absolute;width:22px;height:16px;top:423px;left:729px;border:0px solid red;}
+
+/* Global Class selectors */
+.clearAll {clear: both;}
+
+/* Archive Navigation */
+a.previousIssueLink {text-decoration:none;padding:0px 11px 11px 0px;}
+a.previousIssueLink:hover {text-decoration:none;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -116px -64px;}
+
+a.nextIssueLink {text-decoration:none;padding:0px 11px 11px 0px;}
+a.nextIssueLink:hover {text-decoration:none;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -128px -64px;}
+
+/* Page Navigation */
+a.previousPageLink {text-decoration:none;margin: 0px 0px 0px 0px;padding:0px 22px 8px 0px;}
+a.previousPageLink:hover {text-decoration:none;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -141px -68px;}
+
+a.nextPageLink {text-decoration:none;margin: 0px 0px 0px 0px;padding:0px 22px 8px 0px;}
+a.nextPageLink:hover {text-decoration:none;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -164px -68px;}
+

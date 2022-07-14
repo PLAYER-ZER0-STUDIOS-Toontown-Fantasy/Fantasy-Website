@@ -1,0 +1,15 @@
+/* Toon Resistance Stylesheet */
+/* ID selectors */
+#mainContainer{width:784px;height:451px;margin:0px, 0px;padding:0;background:url(../../img/20100113/tt_i_art_20100113_tnr_bg.png) no-repeat scroll top center;overflow:hidden;}
+
+/* Toon Resistance */
+/* Message */
+#messageColumnContainer{position:absolute;width:270px;height:290px;top:89px;left:454px;padding:5px 10px 0px 20px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:9pt;font-weight:normal;font-style:normal;color:#DFD1F2;line-height:12pt;overflow:visible;}
+#messageColumnContainer p {font-weight:bold;}
+
+/* Signature */
+#signatureContainer{text-align:center;position:absolute;width:160px;height:20px;top:390px;left:545px;padding:5px 0px 0px 0px;font-family:Georgia,serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#DFD1F2;line-height:12pt;overflow:visible;}
+#signatureContainer p {padding:2px 0px 0px 0px;font-size:9pt;font-family:Georgia,serif;font-weight:bold;color:#FF481E;}
+
+/* Class selectors */
+

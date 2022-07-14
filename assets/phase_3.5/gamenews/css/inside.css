@@ -1,0 +1,34 @@
+/* Inside Pages Global Stylesheet */
+
+/* ID selectors */
+/* Inside Menu */
+#menuContainer{z-index:999;position:absolute;width:28px;height:180px;top:25px;left:752px;padding:0px 0px 0px 0px;background:transparent;}
+
+#homeButtonContainer{float:left;width:28px;height:26px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background:transparent;}
+#newsButtonContainer{float:left;width:28px;height:26px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background:transparent;}
+#eventsButtonContainer{float:left;width:28px;height:26px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background:transparent;}
+#talkButtonContainer{float:left;width:28px;height:26px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background:transparent;}
+#resistanceButtonContainer{float:left;width:28px;height:26px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background:transparent;}
+#askButtonContainer{float:left;width:28px;height:26px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;background:transparent;}
+
+/* Class selectors */
+/* Inside Menu */
+a.homeLink {position:absolute;text-decoration:none;padding:0px 27px 9px 0px;}
+a.homeLink:hover {position:absolute;text-decoration:none;height:16px;width:67px;top:0px;left:-62px;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -289px -68px;}
+
+a.newsLink {position:absolute;text-decoration:none;padding:0px 27px 9px 0px;}
+a.newsLink:hover {position:absolute;text-decoration:none;height:16px;width:67px;top:26px;left:-62px;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -289px -98px;}
+
+a.eventsLink {position:absolute;text-decoration:none;padding:0px 27px 9px 0px;border:0px solid red;}
+a.eventsLink:hover {position:absolute;text-decoration:none;height:16px;width:67px;top:51px;left:-62px;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -289px -129px;}
+
+a.talkLink {position:absolute;text-decoration:none;padding:0px 27px 9px 0px;}
+a.talkLink:hover {position:absolute;ext-decoration:none;height:16px;width:127px;top:78px;left:-123px;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -227px -159px;}
+
+a.resistanceLink {position:absolute;text-decoration:none;padding:0px 27px 9px 0px;;}
+a.resistanceLink:hover {position:absolute;text-decoration:none;height:16px;width:127px;top:103px;left:-123px;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -227px -189px;}
+
+a.askLink {position:absolute;text-decoration:none;padding:0px 27px 9px 0px;}
+a.askLink:hover {position:absolute;text-decoration:none;height:16px;width:127px;top:130px;left:-123px;background: transparent url(../img/tt_i_art_stdSpt_655476.png) no-repeat scroll -227px -220px;}
+
+

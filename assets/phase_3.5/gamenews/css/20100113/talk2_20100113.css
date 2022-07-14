@@ -1,0 +1,16 @@
+/* Talk Stylesheet */
+/* ID selectors */
+#mainContainer{width:784px;height:451px;margin:0px, 0px;padding:0;background:url(../../img/20100113/tt_i_art_20100113_tot2_bg.png) no-repeat scroll top center;overflow:hidden;}
+
+/* Body Copy */
+#bodyColumn1Container{position:absolute;width:130px;height:130px;top:210px;left:190px;padding:5px 10px 0px 0px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#000000;line-height:10pt;overflow:visible;}
+#bodyColumn1Container p {font-weight:bold;}
+
+#bodyColumn2Container{position:absolute;width:140px;height:200px;top:207px;left:409px;padding:5px 10px 0px 20px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#000000;line-height:10pt;overflow:visible;}
+#bodyColumn2Container p {font-weight:bold;}
+
+#bodyColumn3Container{position:absolute;width:141px;height:200px;top:207px;left:579px;padding:5px 10px 0px 20px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#000000;line-height:10pt;overflow:visible;}
+#bodyColumn3Container p {font-weight:bold;}
+
+/* Class selectors */
+

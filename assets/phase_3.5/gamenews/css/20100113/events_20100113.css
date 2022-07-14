@@ -1,0 +1,25 @@
+/* Events Stylesheet */
+/* ID selectors */
+#mainContainer{width:784px;height:451px;margin:0px, 0px;padding:0;background:url(../../img/20100113/tt_i_art_20100113_evt_bg.png) no-repeat scroll top center;overflow:hidden;}
+
+/* Banner */
+#bannerContainer{position:absolute;width:320px;height:65px;top:25px;left:410px;padding:5px 0px 0px 15px;font-family:Georgia,serif;font-style:normal;font-size:14pt;font-weight:bold;font-style:normal;color:#000000;line-height:14pt;overflow:visible;}
+
+/* Headline */
+#headlineContainer{position:absolute;width:320px;height:65px;top:115px;left:40px;padding:5px 0px 0px 15px;font-family:Georgia,serif;font-style:normal;font-size:12pt;font-weight:bold;font-style:normal;color:#000000;line-height:10pt;overflow:visible;}
+#headlineContainer p {position:relative;top:10px;line-height:11pt;font-family:Tahoma,Geneva,sans-serif;font-size:10pt;font-weight:normal;}
+
+/* Body Copy */
+#bodyColumn1Container{position:absolute;width:160px;height:130px;top:195px;left:40px;padding:5px 10px 0px 15px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#000000;line-height:11pt;overflow:visible;}
+#bodyColumn1Container p {font-weight:bold;}
+
+#bodyColumn2Container{position:absolute;width:160px;height:255px;top:175px;left:200px;padding:5px 10px 0px 20px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#000000;line-height:11pt;overflow:visible;}
+#bodyColumn2Container p {font-weight:bold;}
+
+#bodyColumn3Container{position:absolute;width:142px;height:185px;top:245px;left:385px;padding:5px 10px 0px 20px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#000000;line-height:11pt;overflow:visible;}
+#bodyColumn3Container p {font-weight:bold;}
+
+#bodyColumn4Container{position:absolute;width:160px;height:75px;top:115px;left:570px;padding:5px 10px 0px 20px;font-family:Tahoma,Geneva,sans-serif;font-style:normal;font-size:10pt;font-weight:normal;font-style:normal;color:#000000;line-height:11pt;overflow:visible;}
+#bodyColumn4Container p {font-weight:bold;}
+
+/* Class selectors */
