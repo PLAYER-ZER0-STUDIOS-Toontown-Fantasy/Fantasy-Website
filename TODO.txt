@@ -1,0 +1,36 @@
++ Scrape the TTO frontend website and use the frontend as the base of the website.
+    + Replace any/all Adobe Flash aspects with HTML 5
+    + Reword "Join Us!" on ToonHQ to "Join Our Discord!"
+        + Redirect "Become a Member" to the PLAYER ZER0 STUDIOS' Discord Server.
+    + Add a workin CDN subdomain
+    + Remove all Fan Art but keep the section
+        + Disable the arrow buttons until there is at least 2 images to switch between.
+    + Change all images that have a TTO counterpart to the TTO counterpart
+    + Blog posts:
+        + Remove all Blog Posts from TTO
+        + On the home page, just say nothing's here.
+    + Add an API to tell youe time is.
+    + Add a banner API telling you if there's a new update, new blog post, etc. or not.
+    + Move the navbar to the left.
+        + Where Toon HQ currently is, have a Home dropdown menu shown in all of my websites.
+    + Remove these from the Navigation Bar:
+        + Remove Membership Tab and all references to a membership
+    + Update the Parents page
+        + Instead of a Rated E for Everyone, I'm rating this E10+ or PG-13
+    + Replace these Textures:
+        + Replace all Toon images with in-game made images using Robot Toon Manager
+    + Replace the Footer with a disclaimer that we aren't affiliated with Disney and such.
+    + When we do an official launch, we should add a Disclaimer to first timers on the website like what TTR did.
+    + Add a settings icon to the bottom right corner of the screen
+        + There should be a display option for Dark Mode
+    + Add Scroll to Top Button that hides at the top of the page.
+    + Make a custom home page mimicking Toontown Rewritten's homepage.
+    + On the Cool Stuff Page:
+        + Make TTO wallpaper and icons available
+        + Add some new icons and wallpapers under Toon HQ >>> Cool Stuff
+            + Add new versions of the Toon icons with and without accessories
+            + Add a TTFan appriviation icon
+            + Add a new icon for all in-game NPCs
+        + Add Custom Content section
+            + The Mods/Custom Content section should be moderated to make sure it contains no virus.
+    + Add mobile support
