@@ -34,3 +34,6 @@
         + Add Custom Content section
             + The Mods/Custom Content section should be moderated to make sure it contains no virus.
     + Add mobile support
+    + Add Two Step Authentication to accounts.
+    + Add an updated Game Guide to the website.
+    + Add a recreation of Disney's Gamenews website to avoid using Disney's URLs in case they get taken down.
