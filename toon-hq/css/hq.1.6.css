@@ -1,0 +1,87 @@
+.mainContainer { height:734px; color:#1d1d1d;}
+#mainContent { position:relative; top:-55px;padding:0 10px 15px; height:610px;width: 963px;overflow: hidden; }
+#mainContent hr { margin:15px 0; }
+#mainContent .toonHqMainTop { background:url(../img/bg_toonHqTopMain.png) no-repeat 0 0; height:20px; width:982px; }
+#mainContent .toonHqMain { background:url(../img/bg_toonHqMain.jpg) no-repeat 0 0; height:514px; width:924px; float:left; padding:90px 25px 0; }
+#mainContent .toonHqMainRight { background:url(../img/bg_toonHqRt.png) no-repeat 0 0; height:605px; width:8px; float:right; }
+#colA,#colC { width:175px; float:left; padding:60px 25px 0; }
+#colC { float:right; padding:60px 25px 0; position:relative; }
+#colB { float:left; padding:0 26px; width:385px; }
+#mainContent h2,#colA h3,#colC h3,#colB span.comments,#mainContent a.button,#mainContent button,.prevBtn,.nextBtn,.seeAll a, #colA #joinUs { background-image:url(../img/bg_toonHqSprite.png); background-repeat:no-repeat; }
+#mainContent h2,#colA h3,#colC h3 { margin:10px auto; text-indent:-9999px; }
+#colB h2 { background-position:-153px -84px; height:34px; margin:0 auto; width:151px; }
+#colB h2 a { display:block; width: inherit; height: inherit; } /* TT Change */
+#colA #fanArtMod { height:211px; position:relative; }
+#colA #fanArtMod h3 { background-position:0 2px; width:75px; height:20px; }
+#colA #pollsMod, #colA #joinUs { height:210px; }
+#colA #pollsMod h3 { background-position:0 -40px; width:45px; height:20px; }
+#colA #joinUs h3 { background-position:-66px -40px; width:72px; height:20px; }
+#colA #joinUs { background-position:-292px -100px; position: relative;}
+/* TTP-370 - Changed following line - ;left: 10px; to ;left: 5px; */
+#colA #joinUs a.button{ background-position:-300px 0px; position: absolute; bottom: 10px;width: 150px;height: 26px;text-indent:-9999px;left: 5px;}
+#colA #joinUs a.button:hover{ background-position:-300px -27px;}
+#colC #topToonsMod { height:200px; padding-top:10px;}
+#colC #topToonsMod h3 { background-position:0 -61px; width:90px; height:24px; }
+#colC #weeklyEventsMod { height:160px; padding-top:40px; text-align:center; line-height:18px; }
+#colC #weeklyEventsMod h3 { background-position:0 -20px; width:112px; height:20px; margin:10px auto 0; }
+#colB div { margin-top:15px; padding-top:10px; }
+#colB div span.comments,#colB div.first img { float:right; }
+#colB div.first p { clear:left; line-height:18px; }
+#colB div.first img { margin:5px 0 0; }
+#colB div span.comments { font-weight:bold; font-size:11px; padding:5px 0 5px 35px; background-position:-112px -117px; }
+#colB div.first h3 { font-size:18px; padding:0 0 10px; }
+#colB div h3 { font-size:16px; padding:5px 0 0; }
+a.toonNewsSeeAll { width:82px; height:26px; float:right; display:block; text-indent:-9999px; background-position:0 -211px; }
+a.toonNewsSeeAll:hover { background-position:-85px -211px; }
+#colB div.last { padding-top:10px; }
+a.weeklyEventsSeeDetails { width:97px; height:26px; margin:0 auto; display:block; text-indent:-9999px; background-position:0 -181px; }
+a.weeklyEventsSeeDetails:hover { background-position:-98px -181px; }
+/*#pollsMod #flashObj { width:130px; height:180px; margin:0 auto; }*/
+#pollsMod #flashObj { width:130px; height:180px; margin:0 60px 0 20px; }/*TT change*/
+#toonTime { color:#D7D7D7; font-size:20px; font-weight:bold; left:-12px; position:absolute; text-align:center; top:36px; width:50px; }
+
+/*--carousel--*/
+.seeAll a { width:83px; height:26px; display:block; background-position:0 -240px; }
+.seeAll a:hover { background-position:-85px -240px; }
+#fanArtMod .seeAll { bottom:36px; height:26px; left:46px; position:absolute; width:83px; }
+#topToonsMod .seeAll { background-position:0 -152px; bottom:6px; height:29px; left:46px; position:absolute; width:83px; }
+#fanArtMod { overflow:hidden; }
+#fanArtMod #fanArtCarousel { width:137px; height:100px; margin:0 auto; display:none}
+#fanArtMod .nextBtn,#fanArtMod .prevBtn { position:absolute; width:24px; height:35px; bottom:30px; cursor:pointer; }
+#fanArtMod .nextBtn { right:13px; background-position:-29px -116px; }
+#fanArtMod .prevBtn { left:13px; background-position:-1px -116px; }
+#fanArtMod ul li { background:url(../img/fpo_fanArt.jpg) no-repeat 0 0; width:137px; height:100px; float:left; margin:0 15px; }
+#colC #topToonsMod h3 { margin-bottom:0; }
+#topToonsCarousel { margin:0 auto; }
+#topToonsMod { position:relative; }
+#topToonsMod .nextBtn,#topToonsMod .prevBtn { position:absolute; width:24px; height:32px; bottom:3px; cursor:pointer; }
+#topToonsMod .nextBtn { right:13px; background-position:-77px -116px; }
+#topToonsMod .prevBtn { left:13px; background-position:-54px -116px; }
+#topToonsMod ul li { background:url(../img/img_toonHqTrophy.png) center 15px; width:165px; height:130px; background-repeat: no-repeat;position: relative;}
+#topToonsMod ul li img {position:absolute;left:66px;top:24px;}
+#topToonsMod .playerName,#topToonsMod .catName {position:relative;text-align:center;width:165px;}
+#topToonsMod .playerName {top:85px;}
+#topToonsMod .playerName p {font-size: 10px;}
+#topToonsMod .catName {}
+#topToonsMod h4 {font-weight: bold;font-size:12px;}
+#topToonsMod .playerName {font-size:12px;}
+
+/*Begin TT change*/
+h1.blog{text-align:center;background:url(../../blog/img/whats-new.png) no-repeat scroll;margin:0 0 0px 120px;height:32px;text-indent:-9999px;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src='http://cdn.toontown.disney.go.com/toontown/en/blog/img/whats-new.png',sizingMethod='crop');}
+/*End TT change*/
+
+#colB #ttBlogEntries, #ttBlogErr{display:none;margin-top:0;padding-top:0}
+#ttBlogErr{width:370px;height:326px;position:relative}
+#ttBlogErr #ttBlogErrImg{position:absolute;top:-25px;left:22px;width:334px;height:248px}
+#ttBlogErr #ttBlogErrTxt{position:absolute;top:229px;left:5px;width:370px;height:50px;text-align:center}
+
+#getConnected{width:130px;height:180px;position:relative;}
+.gcSprite { background: transparent url(../img/get-connected.gif) no-repeat scroll 0 0;border: none; outline: none; text-indent: -9999em; }
+	a.gcSprite { display: block; text-indent: -9999em; }
+	span.gcSprite { display: block; text-indent: -9999em; }
+
+.gcTitle {width: 126px; height: 21px; background-position: -18px -36px; margin:0 auto;position:absolute;top:10px;left:25px}
+.gcBg {width: 140px; height: 114px; background-position: -181px -0px; margin:0 auto;position:absolute;top:30px;left:10px}
+.gcSprite.gcLink { width: 154px; height: 27px; background-position: -8px -71px;position:absolute;top:160px;left:5px}
+.gcSprite.gcLink:hover { background-position: -8px -98px;position:absolute;top:160px;left:5px}
+
