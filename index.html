@@ -13,108 +13,81 @@
             <meta name="og:url" content="https://www.toontownfantasy.com/">
             <meta content="summary_large_image" name="twitter:card">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+            <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
             <link rel="icon" sizes="32x32" href="https://www.toontownfantasy.com/assets/images/fantasy-icon.ico">
 </head>
-<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"> -->
+<!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
    <body>
-    <nav class="MainNavBar">
-        <ul class="nav-main">
-            <div class="NavBar" id="NaviBar">
-                    <div id="visibility">
-                        <img class="FantasyLogo" id="FantasyID" src="https://www.toontownfantasy.com/assets/images/toontown-logo.png" alt="Toontown Fantasy">
-                        <li class="nav-main-item"></i><a href="#"><i class="fas fa-home"></i>Home<i class="fas fa-caret-down"></i></a>
-                            <ul class="navi-main-item">
-                                <li class="linking-sub full">
-                                    <div class="line-sub">|</div><a class="full" href="https://www.arbitriumtv.com/">Arbitrium TV</a></li>
-                                <li class="linking-sub full"><div class="line-sub-studios">|</div><a class="full" href="https://www.playerzerostudios.com/">PLAYER ZER0 STUDIOS</a></li>
-                                <li class="linking-sub"><div class="line-sub-player">|</div><a class="full" href="https://www.theplayerzero.com/">THE PLAYER ZER0</a></li>
-                                <li class="linking-sub"><div class="line-sub">|</div><a class="full" href="https://www.toontownfantasy.com/">Toontown Fantasy</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-main-item news-item"><a href="#"><i class="fas fa-newspaper"></i>News</a></li>
-                        <li class="nav-main-item info-item"><a href="#"><i class="fas fa-info info-item"></i>Info<i class="fas fa-caret-down"></i></a>
-                            <ul class="navi-main-item">
-                                <li class="linking-sub"><div class="line-sub">|</div><a href="#">FAQ</a></li>
-                                <li class="linking-sub"><div class="line-sub-team">|</div><a href="https://discord.gg/9fgW8jAaf6">Join the Team</a></li>
-                                <li class="linking-sub"><div class="line-sub">|</div><a href="https://github.com/ThePlayerZero/Open-Fantasy/pulls">Contribute</a></li>
-                                <li class="linking-sub"><div class="line-sub">|</div><a href="#">Guidelines</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-main-item playBtn play-item"><a href="https://github.com/ThePlayerZero/Open-Fantasy"><img class="play" src="https://www.toontownfantasy.com/assets/images/playButton.png" /></a></li>
-                    </div>
-                    </ul>
-                </div>
-                <a href="#"><i class="fas fa-bars navbar-icon" onClick="changeIcon(this); toggle_visibility('visibility');"></i></a>
-            </nav>
-                <style>
+          <ul id="headerNav" style="z-index: -9;">
+            <li><a href="https://www.toontownfantasy.com/"><img id="headerLogo" style="z-index: 8;" src="https://www.toontownfantasy.com/assets/images/txt_headerLogo.png" alt="fantasy-icon"></a></li>
+            <li id="headerNavToonHQ"><a href="https://www.toontownfantasy.com/toon-hq/">Toon HQ</a></li>
+            <li id="headerNavAbout"><a href="https://www.toontownfantasy.com/about/">About</a></li>
+            <li id="headerNavJoin"><a href="https://www.toontownfantasy.com/PLAYERZER0STUDIOS">Our Discord</a></li>
+            <li id="headerNavParents"><a href="https://www.toontownfantasy.com/parents/">Parents</a></li>
+            <li id="headerNavHelp"><a href="https://www.toontownfantasy.com/help/">Help</a></li>
+          </ul>
+          <div id="subNavContainer">
+            <ul id="headerNavToonHQSub" class="hidden">
+              <li id="toonWhatsNew"><a name="&amp;lid=toonhq_subnav_whats_new" href="https://www.toontownfantasy.com/blog/">What's New</a></li>
+              <li id="toonTopToon"><a name="&amp;lid=toonhq_subnav_top_toons" href="https://www.toontownfantasy.com/toon-hq/top-toons">Top Toons</a></li>
+              <li id="toonFanArt"><a name="&amp;lid=toonhq_subnav_fan_art" href="https://www.toontownfantasy.com/toon-hq/fan-art">Fan Art</a></li>
+              <li id="toonCoolStuff"><a name="&amp;lid=toonhq_subnav_cool_stuff" href="https://www.toontownfantasy.com/toon-hq/cool-stuff/">Cool Stuff</a></li>
+              <li id="toonPlayersGuide"><a name="&amp;lid=toonhq_subnav_pg_home" href="https://www.toontownfantasy.com/help/players-guide/">Player's Guide</a></li>
+              <li id="toonReleaseNotes"><a name="&amp;lid=toonhq_subnav_release_notes" href="https://www.toontownfantasy.com/toon-hq/release-notes">Release Notes</a></li>
+            </ul>
 
-                </style>
-                <section>
-                    <div class="flex flex-header-welcome">
-                        <h1 class="fantasy-header">Welcome to the official Toontown Fantasy website!</h1>
-                    </div>
-            
-                    <div class="flex flex-paragraph-welcome">
-                        <p class="fantasy-paragraph fantasy-paragraph-welcome">Hello there! My name is Gracie aka <a class="links" href="https://www.youtube.com/channel/UCG0OvtYX4qA6Ap1OxQpohOA">THE PLAYER ZER0</a> and I want to personally welcome you to the official Toontown Fantasy website!</p>
-                    </div>
-                </section>
-
-                <section>
-    
-                    <div class="flex fantasy-flex-header-welcome">
-                        <h1 class="fantasy-header">What is Toontown Fantasy about?</h1>
-                    </div>
-    
-                    <p class="fantasy-paragraph fantasy-paragraph-welcome">Toontown Fantasy is a singleplayer reinvention of the beloved Disney game, Disney's Toontown Online built those who've grown up with the original game and want something different! Create your own Toon and join the never-ending battle against the Cogs, who want to turn Toontown into their latest business venture.
-                    </p>
-    
-                    <p class="fantasy-paragraph">
-                        The real Toontown Fantasy takes place outside the timeline you may know. The version I am referring to is of the Tooniverse was created by Aurora Lovelight in memory of her mother who she lost earlier in her timeline who always wanted to make that perfect Toontown game but probably never had the resources to do it!
-                    </p>
-
-                </section>
-
-                <section>            
-                    <img class="construction-img" src="https://www.toontownfantasy.com/assets/images/Under_Construction.png">
-                </section>
-            
-                    <p class="fantasy-paragraph">As you can see, this website is still in development. So, some things might be unfinished! If that's the case, click on <a class="links" href="https://github.com/PLAYER-ZER0-STUDIOS-Toontown-Fantasy/Fantasy-Website/issues/new">this</a> link to report the bug!</p>
-                
-             <!-- </div> -->
-             <!-- Welcome Body begins here -->
-        
-             <!-- 
-                 What the Home Page needs...:
-                     + Blog Posts
-                     + What's This Game All About section
-                     + How I can Contribute Section
-             -->
-        
-             <!-- Insert Footer Navigation Here... -->
-        
-             <!--
-                 What goes in Footer?
-                     + Social icons for YouTube, Twitter, Discord, and GitHub
-                     + Join the Team, Partners, Press, Licenses, Credits, and Help links
-                     + Affiliation Disclaimer
-              -->
+            <div id="headerNavParentsSub" class="hidden">
+            <ul>
+              <li id="parentsFeatures"><a name="&amp;lid=parents_subnav_features" href="https://www.toontownfantasy.com/parents/features">Features</a></li>
+              <li id="parentsFaqs"><a name="&amp;lid=parents_subnav_faqs" href="https://www.toontownfantasy.com/help/faq/toontown-overview?navId=parents">FAQs</a></li>
+            </ul>
             </div>
-           </body>
-           <script type="text/javascript">
-                function toggle_visibility(id) {
-                   var e = document.getElementById(id);
-                   if(e.style.display == 'block')
-                      e.style.display = 'none';
-                   else
-                      e.style.display = 'block';
-                }
-            </script>
-           <script>
-            // Icon Changer
-            let changeIcon = function(icon) {
-             icon.classList.toggle('fa-times')
-            }
-           </script>
-        </html>
+            <ul id="headerNavHelpSub" class="hidden">
+              <li id="helpFaqs"><a name="&amp;lid=help_subnav_faqs" href="https://www.toontownfantasy.com/help/faq/toontown-overview">FAQs</a></li>
+              <li id="helpTechIssues"><a name="&amp;lid=help_subnav_technical_issues" href="https://www.toontownfantasy.com/help/technical/general">Technical Issues</a></li>
+              <li id="helpPlayersGuide"><a name="&amp;lid=help_subnav_pg_home" href="https://www.toontownfantasy.com/help/players-guide/?navId=help">Player's Guide</a></li>
+              <li id="helpContact"><a name="&amp;lid=help_subnav_contact_us" href="https://www.toontownfantasy.com/help/contact?navId=help">Contact</a></li>
+              <!-- <li id="helpManage"><a name="&amp;lid=help_subnav_account_manager" href="https://web.archive.org/web/20130806080626/https://toontown.go.com/membership/account-management/?navId=help">Account Manager</a></li> -->
+            </ul>
+
+          </div>
+          <a href="https://github.com/ThePlayerZero/Open-Fantasy/releases" id="headerPlayNow">Play Now</a>
+        </div><!--header-->
+
+        <div id="homepagelowerNav">
+
+          <img src="https://www.toontownfantasy.com/assets/images/homepage.gif" />
+          <div class="bottomInnerContainerTop"></div>
+          <div class="bottomInnerContainerMid">
+            <dl id="toonHQ">
+              <dt><a name="&amp;lid=homepage_redundant_nav_toonhq" href="https://web.archive.org/web/20130806152344/http://toontown.go.com/toon-hq/" title="Toon HQ">Toon HQ</a></dt>
+              <dd>Catch breaking <br/>news that's <br/>up-Toon-the-minute</dd>
+            </dl>
+            <dl id="about">
+              <dt><a name="&amp;lid=homepage_redundant_nav_aboutgame" href="https://web.archive.org/web/20130805210456/http://toontown.go.com/about/" title="About">About</a></dt>
+              <dd>Get to know the world <br/>of falling safes and <br/>flying pies!</dd>
+            </dl>
+            <dl id="parents">
+              <dt><a name="&amp;lid=homepage_redundant_nav_parents" href="https://web.archive.org/web/20130806132046/http://toontown.go.com/parents/" title="Parents">Parents</a></dt>
+              <dd>Check out helpful info <br/>and features for <br/>Big Toons!</dd>
+            </dl>
+            <dl id="help">
+              <dt><a name="&amp;lid=homepage_redundant_nav_help" href="https://web.archive.org/web/20130805190034/http://toontown.go.com/help/" title="Help">Help</a></dt>
+              <dd>Be an informed Toon <br/>and find the answers <br/>you need!</dd>
+            </dl>
+          </div>
+          <div class="bottomInnerContainerBot"></div>
+        </div><!-- END homepagelowerNav -->
+              </div>
+              <!-- END mainContent -->
+          </div>
+          <!-- END mainContainer -->
+
+          <div id="atlasHomeProspect" name="atlasHomeProspect"></div>
+          <div id="atlasHomeProspect2" name="atlasHomeProspect2"></div>
+<div id="footer">
+
+</div>
+</body>
+</html>
